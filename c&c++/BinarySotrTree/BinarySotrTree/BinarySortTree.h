@@ -15,6 +15,5 @@ typedef struct _TreeNode
 void InOrderTraverse(BiTree T);
 Status SearchBT(BiTree T, int key, BiTree f, BiTree *p);
 Status InsertBt(BiTree *T, int key);
-Status DeleteBt(BiTree *T);
-
-
+Status DeleteBt(BiTree *T, int key);
+ 

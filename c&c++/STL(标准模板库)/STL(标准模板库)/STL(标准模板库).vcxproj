@@ -20,10 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{0C692DE6-E057-4857-B48C-1A496D134B42}</ProjectGuid>
-    <RootNamespace>二叉排序树</RootNamespace>
+    <ProjectGuid>{A2695705-77A0-4D85-B14A-86B5BD6112B3}</ProjectGuid>
+    <RootNamespace>STL标准模板库</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>BinarySortTree</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -124,11 +123,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="BinarySortTree.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="BinarySortTree.c" />
-    <ClCompile Include="main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

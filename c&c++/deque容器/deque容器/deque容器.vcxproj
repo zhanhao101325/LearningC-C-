@@ -128,6 +128,7 @@
     <ClCompile Include="03 deque的大小操作.cpp" />
     <ClCompile Include="04 deque的插入和删除.cpp" />
     <ClCompile Include="05 deque的存取.cpp" />
+    <ClCompile Include="06 deque的排序.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

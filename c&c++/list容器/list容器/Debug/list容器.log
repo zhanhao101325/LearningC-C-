@@ -1,2 +1,1 @@
-﻿  03 list的操作.cpp
-  list容器.vcxproj -> C:\Gitfile\LearningC-C-\c&c++\list容器\Debug\list容器.exe
+﻿LINK : fatal error LNK1168: 无法打开 E:\LearningC-C-\c&c++\list容器\Debug\list容器.exe 进行写入

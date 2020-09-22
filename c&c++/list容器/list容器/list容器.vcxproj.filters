@@ -24,5 +24,8 @@
     <ClCompile Include="03 list的操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="04 list的反转和排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

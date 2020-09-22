@@ -126,6 +126,7 @@
     <ClCompile Include="01 list的构造.cpp" />
     <ClCompile Include="02 list的赋值和交换.cpp" />
     <ClCompile Include="03 list的操作.cpp" />
+    <ClCompile Include="04 list的反转和排序.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

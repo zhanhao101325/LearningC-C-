@@ -1,0 +1,61 @@
+﻿  05 map的排序.cpp
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility(1108): error C2664: “bool Mycompare::operator ()(std::pair<int,int>,std::pair<int,int>)”: 无法将参数 1 从“const int”转换为“std::pair<int,int>”
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility(1108): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility(1107): note: 参见对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<Mycompare&,const int&,const int&>(_Pr,_Ty1,_Ty2) noexcept(<expr>)”的引用
+          with
+          [
+              _Pr=Mycompare &,
+              _Ty1=const int &,
+              _Ty2=const int &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xtree(1154): note: 参见对正在编译的函数 模板 实例化“std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,int,_Pr,_Alloc,false>>::_Insert_nohint<_Value_type&,std::_Tree_node<_Value_type,std::_Default_allocator_traits<_Alloc>::void_pointer>*>(bool,_Valty,_Nodety)”的引用
+          with
+          [
+              _Ty=std::pair<const int,int>,
+              _Kty=int,
+              _Pr=Mycompare,
+              _Alloc=std::allocator<std::pair<const int,int>>,
+              _Value_type=std::pair<const int,int>,
+              _Valty=std::pair<const int,int> &,
+              _Nodety=std::_Tree_node<std::pair<const int,int>,std::_Default_allocator_traits<std::allocator<std::pair<const int,int>>>::void_pointer> *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xtree(1156): note: 参见对正在编译的函数 模板 实例化“std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,int,_Pr,_Alloc,false>>::_Insert_nohint<_Value_type&,std::_Tree_node<_Value_type,std::_Default_allocator_traits<_Alloc>::void_pointer>*>(bool,_Valty,_Nodety)”的引用
+          with
+          [
+              _Ty=std::pair<const int,int>,
+              _Kty=int,
+              _Pr=Mycompare,
+              _Alloc=std::allocator<std::pair<const int,int>>,
+              _Value_type=std::pair<const int,int>,
+              _Valty=std::pair<const int,int> &,
+              _Nodety=std::_Tree_node<std::pair<const int,int>,std::_Default_allocator_traits<std::allocator<std::pair<const int,int>>>::void_pointer> *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\map(213): note: 参见对正在编译的函数 模板 实例化“std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,int,_Pr,_Alloc,false>>::emplace<std::pair<int,int>>(std::pair<int,int> &&)”的引用
+          with
+          [
+              _Ty=std::pair<const int,int>,
+              _Kty=int,
+              _Pr=Mycompare,
+              _Alloc=std::allocator<std::pair<const int,int>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\map(213): note: 参见对正在编译的函数 模板 实例化“std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,int,_Pr,_Alloc,false>>::emplace<std::pair<int,int>>(std::pair<int,int> &&)”的引用
+          with
+          [
+              _Ty=std::pair<const int,int>,
+              _Kty=int,
+              _Pr=Mycompare,
+              _Alloc=std::allocator<std::pair<const int,int>>
+          ]
+  e:\learningc-c-\c&c++\map和multimap容器\map和multimap容器\05 map的排序.cpp(42): note: 参见对正在编译的函数 模板 实例化“std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::map<int,int,Mycompare,std::allocator<_Ty>>::insert<std::pair<int,int>,void>(_Valty &&)”的引用
+          with
+          [
+              _Ty=std::pair<const int,int>,
+              _Valty=std::pair<int,int>
+          ]
+  e:\learningc-c-\c&c++\map和multimap容器\map和multimap容器\05 map的排序.cpp(42): note: 参见对正在编译的函数 模板 实例化“std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::map<int,int,Mycompare,std::allocator<_Ty>>::insert<std::pair<int,int>,void>(_Valty &&)”的引用
+          with
+          [
+              _Ty=std::pair<const int,int>,
+              _Valty=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility(1108): error C2056: 非法表达式

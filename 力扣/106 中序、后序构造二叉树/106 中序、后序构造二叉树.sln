@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "106 中序、后序构造二叉树", "106 中序、后序构造二叉树\106 中序、后序构造二叉树.vcxproj", "{83DF29A0-6620-4A1A-86CB-74BD77AB529C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83DF29A0-6620-4A1A-86CB-74BD77AB529C}.Debug|x64.ActiveCfg = Debug|x64
+		{83DF29A0-6620-4A1A-86CB-74BD77AB529C}.Debug|x64.Build.0 = Debug|x64
+		{83DF29A0-6620-4A1A-86CB-74BD77AB529C}.Debug|x86.ActiveCfg = Debug|Win32
+		{83DF29A0-6620-4A1A-86CB-74BD77AB529C}.Debug|x86.Build.0 = Debug|Win32
+		{83DF29A0-6620-4A1A-86CB-74BD77AB529C}.Release|x64.ActiveCfg = Release|x64
+		{83DF29A0-6620-4A1A-86CB-74BD77AB529C}.Release|x64.Build.0 = Release|x64
+		{83DF29A0-6620-4A1A-86CB-74BD77AB529C}.Release|x86.ActiveCfg = Release|Win32
+		{83DF29A0-6620-4A1A-86CB-74BD77AB529C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B636F57B-F04B-4660-96FE-729E427CB0F7}
+	EndGlobalSection
+EndGlobal
